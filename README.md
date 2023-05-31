@@ -1,5 +1,5 @@
 # Repository
-![inteligência artificial](https://github.com/Liga-IA/Repository/assets/93664169/d935b5eb-d800-4a06-b18f-97170e312e5f)
+![inteligência artificial](https://github.com/Liga-IA/Repository/assets/93664169/ae14c314-1b6d-42c6-8828-b406f17fee25)
 
 ## - [🗺️ Guia de Aprendizado](Guia)
 
