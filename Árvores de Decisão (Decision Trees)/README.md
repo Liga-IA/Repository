@@ -1,4 +1,4 @@
-# Repository
+# Repository Algoritmos Genéticos (Genetic Algorithms)
 ![image](https://user-images.githubusercontent.com/93664169/208255381-f321aa80-5343-432c-837c-d5758e029e70.png)
 
 ## - [🗺️ Guia de Aprendizado](Guia)
@@ -8,18 +8,15 @@ Queremos criar um repositorio de tecnicas inteligencia artificial.
 
 ## - [🔧 Seções](Seções)
 
-Cada pasta dessas é uma tecnica de inteligencia artificial, as tecnicas são desenvolvidas em colabs do google, para facil compilação e compreenção de qualquer um em qualquer computador. 
+## - [👩‍🏫 Introdução](Introdução)
 
-- Aprendizado de Máquina (Machine Learning)
-- Redes Neurais Artificiais (Artificial Neural Networks)
-- Redes Neurais Convolucionais (Convolutional Neural Networks)
-- Processamento de Linguagem Natural (Natural Language Processing - NLP)
-- Árvores de Decisão (Decision Trees)
-- Algoritmos Genéticos (Genetic Algorithms)
-- Aprendizado por Reforço (Reinforcement Learning)
-- Aprendizado Semi-Supervisionado (Semi-Supervised Learning)
-- Aprendizado Não Supervisionado (Unsupervised Learning)
-- Aprendizado por Transferência (Transfer Learning)
+## - [📚 Bibliotecas e tecnologias](Bibliotecas)
+
+## - [🦖 Instalação](Instalação)
+
+
+
+
 
 
 ### 🤝 Suporte/Contato
