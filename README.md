@@ -3,12 +3,12 @@
 
 ## - [🗺️ Guia de Aprendizado](Guia)
 
-Esse projeto foi uma proposta da LIA- Liga de inteligencia Artificial da universidade federal de santa catarina - UFSC
-Queremos criar um repositorio de tecnicas inteligencia artificial. 
+Esse projeto foi uma proposta da LIA- Liga de Inteligencia Artificial da Universidade Federal de Santa Catarina - UFSC
+Queremos criar um repositorio de técnicas inteligencia artificial. 
 
 ## - [🔧 Seções](Seções)
 
-Cada pasta dessas é uma tecnica de inteligencia artificial, as tecnicas são desenvolvidas em colabs do google, para facil compilação e compreenção de qualquer um em qualquer computador. 
+Cada uma das pasta desse projeto contém uma técnica de inteligencia artificial, as técnicas são desenvolvidas em projetos no Colabs do Google, para fácil compilação e compreenção, sem a necessidade de instalações específicas ou download de código. 
 
 - Aprendizado de Máquina (Machine Learning)
 - Redes Neurais Artificiais (Artificial Neural Networks)
