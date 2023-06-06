@@ -3,7 +3,7 @@
 
 ## - [🗺️ Guia de Aprendizado](Guia)
 
-Esse projeto foi uma proposta da LIA- Liga de Inteligencia Artificial da Universidade Federal de Santa Catarina - UFSC
+Esse projeto foi uma proposta da LIA- Liga de Inteligencia Artificial da Universidade Federal de Santa Catarina - UFSC. 
 Queremos criar um repositorio de técnicas inteligencia artificial. 
 
 ## - [🔧 Seções](Seções)
