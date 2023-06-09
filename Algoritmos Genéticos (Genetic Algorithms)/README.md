@@ -1,5 +1,8 @@
 # Repository Algoritmos Genéticos (Genetic Algorithms)
-![image](https://user-images.githubusercontent.com/93664169/208255381-f321aa80-5343-432c-837c-d5758e029e70.png)
+
+![image](https://github.com/Liga-IA/Repository/assets/93664169/2cc9e8f1-8f76-4886-aacd-155cb55cd333)
+
+
 
 ## - [🗺️ Guia de Aprendizado](Guia)
 
@@ -11,6 +14,10 @@ Queremos criar um repositorio de tecnicas inteligencia artificial.
 ## - [👩‍🏫 Introdução](Introdução)
 
 ## - [📚 Bibliotecas e tecnologias](Bibliotecas)
+
+1. **DEAP**: O DEAP (Distributed Evolutionary Algorithms in Python) é uma biblioteca em Python voltada para a implementação de algoritmos evolutivos, incluindo algoritmos genéticos. Ele fornece uma variedade de ferramentas e estruturas de dados para facilitar a criação e execução desses algoritmos. Com o DEAP, é possível definir a estrutura de um indivíduo, criar funções de avaliação de aptidão, aplicar operadores genéticos como cruzamento e mutação, e executar a evolução da população. É uma biblioteca poderosa e flexível para explorar a natureza evolutiva dos problemas.
+
+2. **Matplotlib**: O Matplotlib é uma biblioteca de visualização de dados em Python. Ela fornece uma ampla gama de ferramentas para criar gráficos, gráficos de barras, diagramas de dispersão e muito mais. Com o Matplotlib, é possível personalizar a aparência dos gráficos, adicionar rótulos e legendas, e até mesmo criar animações. Ele é amplamente utilizado para visualizar resultados e tendências em algoritmos evolutivos, permitindo uma análise mais clara e compreensão dos dados gerados pelos algoritmos. É uma ferramenta essencial para tornar os resultados dos algoritmos mais visíveis e interpretáveis.
 
 ## - [🦖 Instalação](Instalação)
 
