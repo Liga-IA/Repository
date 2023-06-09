@@ -31,6 +31,25 @@ O operador de cruzamento, também conhecido como recombinação, desempenha um p
 
 ![image](https://github.com/Liga-IA/Repository/assets/93664169/a22200f4-9030-4281-9861-3ace67bbd15c)
 
+O **cruzamento** é o operador responsável pela recombinação de características dos pais durante a reprodução, permitindo que as próximas gerações herdem essas características. Ele é considerado o operador genético predominante, por isso é aplicado com probabilidade dada pela taxa de crossover Pc, que deve ser maior que a taxa de mutação.
+
+Este operador pode, ainda, ser utilizado de várias maneiras; as mais utilizadas são:
+
+um-ponto: um ponto de cruzamento é escolhido e a partir deste ponto as informações genéticas dos pais serão trocadas. As informações anteriores a este ponto em um dos pais são ligadas às informações posteriores à este ponto no outro pai, como é mostrado no exemplo da figura abaixo:
+
+multi-pontos: é uma generalização desta idéia de troca de material genético através de pontos, onde muitos pontos de cruzamento podem ser utilizados.
+
+uniforme: não utiliza pontos de cruzamento, mas determina, através de um parâmetro global, qual a probabilidade de cada variável ser trocada entre os pais.
+
+![cross_an](https://github.com/Liga-IA/Repository/assets/93664169/466760a7-0101-49ec-ad4e-a4fa49fe93d3)
+
+
+Um exemplo de crossover de um ponto.
+(a) dois indivíduos são escolhidos.
+(b) um ponto (4) de crossover é escolhido.
+(c) são recombinadas as características, gerando dois novos indivíduos.
+
+
 ## Operador de Mutação
 A mutação é outro operador fundamental nos algoritmos evolutivos. Ele é responsável por introduzir mudanças aleatórias nos atributos de um indivíduo. Essas alterações podem ajudar os indivíduos a se adaptarem a novas condições do ambiente. É como se estivéssemos permitindo algumas surpresas inesperadas no processo evolutivo.
 
