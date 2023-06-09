@@ -1,20 +1,57 @@
-# Teoria
+# Teoria de Algoritmos Genéticos (Computação Evolucionária)
 
-Os algoritmos genéticos são uma classe de algoritmos de otimização inspirados no processo de seleção natural e evolução biológica. Eles foram propostos por John Holland e seus colaboradores na década de 1970 e são amplamente utilizados para resolver problemas de otimização e busca em várias áreas.
+Você já ouviu falar dos **algoritmos genéticos**? Eles são como uma versão high-tech do processo de evolução biológica! Imagine uma galera de soluções candidatas para um problema, cada uma representada por um indivíduo. Esses indivíduos são como cromossomos cheios de genes, que podem ser características, parâmetros ou qualquer informação importante.
+
+Aí vem a parte divertida! Esses indivíduos passam por uma verdadeira competição para se destacarem. 
+A **seleção** entra em ação e escolhe os mais aptos, aqueles que têm uma performance melhor. Mas olha só, a diversidade genética é importante, então até os menos aptos têm chance de serem escolhidos. É tipo um reality show onde até o azarão pode ganhar uma chance!
+
+<p align="center">
+  <img src="https://media.giphy.com/media/Th49xtsrSFJVsIGtkB/giphy.gif" alt="GIF Neymar e Paquetá">
+</p>
+E aí temos o  **cruzamento**, um verdadeiro encontro genético! Aqui, partes dos cromossomos dos pais se misturam, criando uma nova geração. É como se o talento dos pais se unisse para formar descendentes ainda melhores. É como se Neymar e Paquetá se juntassem em campo para criar uma super jogada!
+
+E não podemos esquecer da **mutação**! É quando uma pequena dose de loucura aleatória é adicionada aos genes dos indivíduos. Isso aumenta a diversidade genética e ajuda a explorar novos caminhos no problema. É como se de repente um gene resolvesse dançar o tango enquanto os outros estavam todos no samba!
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o6Mb9DvVlkBSiLToI/giphy.gif" alt="GIF Mutação">
+</p>
+Toda essa dança genética acontece por várias gerações até que o algoritmo encontre uma solução satisfatória ou atinja um limite de gerações. É como um jogo de tentativa e erro, mas com uma galera evoluindo junto!
+
+A chance de um indivíduo da população ser selecionado para a próxima geração depende da função de aptidão ou fitness desse indivíduo
+
+A ideia por trás desses algoritmos é bem legal: ao longo do tempo, a população evolui e encontra soluções cada vez melhores. É tipo uma turma de amigos que vai se superando em cada desafio, graças à combinação dos mais talentosos e a algumas surpresas aleatórias pelo caminho.
+
+![image](https://github.com/Liga-IA/Repository/assets/93664169/bdac6c78-1b8d-4b92-be53-80e93c24e10a)
+
+## População de Indivíduos
+A cada geração, a população de indivíduos é representada por uma estrutura de dados S, onde cada solução xi é avaliada e recebe uma medida de aptidão (fitness). Essa medida de aptidão reflete o quão bem a solução se adapta ao problema em questão.
+
+## Operador de Cruzamento
+O operador de cruzamento, também conhecido como recombinação, desempenha um papel importante na criação de novos indivíduos. Ele transfere características entre dois ou mais indivíduos, criando uma mistura de informações genéticas. É como se estivéssemos misturando o melhor dos pais para criar filhos ainda melhores!
+
+![image](https://github.com/Liga-IA/Repository/assets/93664169/a22200f4-9030-4281-9861-3ace67bbd15c)
+
+## Operador de Mutação
+A mutação é outro operador fundamental nos algoritmos evolutivos. Ele é responsável por introduzir mudanças aleatórias nos atributos de um indivíduo. Essas alterações podem ajudar os indivíduos a se adaptarem a novas condições do ambiente. É como se estivéssemos permitindo algumas surpresas inesperadas no processo evolutivo.
 
 
-A ideia básica por trás dos algoritmos genéticos é simular a evolução de uma população de indivíduos, onde cada indivíduo representa uma solução candidata para o problema em questão. Esses indivíduos são codificados como cromossomos, que consistem em uma sequência de genes. Os genes podem representar características, parâmetros ou qualquer informação relevante para o problema.
+![image](https://github.com/Liga-IA/Repository/assets/93664169/52c664c0-b832-4d6d-8ad0-1dcd67d2cca0)
 
-A evolução ocorre por meio de um processo iterativo que envolve três principais operadores genéticos:
 
-1. Seleção: A seleção determina quais indivíduos têm uma maior probabilidade de serem escolhidos para reprodução com base em sua aptidão, que é uma medida de quão bom é um indivíduo em relação ao problema. Indivíduos com maior aptidão têm maior probabilidade de serem selecionados, mas a seleção também permite que indivíduos menos aptos sejam escolhidos para manter a diversidade genética.
+## Reprodução
+O operador genético de reprodução é responsável por copiar indivíduos de uma população para outra. É como se estivéssemos passando adiante os genes dos indivíduos mais aptos para as gerações futuras.
 
-2. Cruzamento (Crossover): O cruzamento é um operador que combina informações genéticas de dois indivíduos para criar descendentes. Em um ponto de corte aleatório, as partes dos cromossomos dos pais são trocadas para gerar novos cromossomos filhos. O cruzamento permite a criação de novas soluções combinando características favoráveis ​​dos pais.
+## Seleção
+A seleção é um processo que emula os princípios da reprodução assexuada e seleção natural. Geralmente, é criada uma população temporária de N indivíduos, selecionados com base na probabilidade proporcional à sua aptidão relativa. Ou seja, quanto mais apto o indivíduo, maior a probabilidade de ser selecionado. É como um concurso de talentos, onde os melhores têm mais chances de avançar. 
+Em geral, gera-se uma população temporária de N indivíduos extraídos com probabilidade proporcional ao fitness relativo de cada indivíduo no população.
 
-3. Mutação: A mutação é um operador que introduz pequenas alterações aleatórias nos cromossomos dos indivíduos para aumentar a diversidade genética. Isso permite explorar o espaço de busca de forma mais ampla, evitando que o algoritmo fique preso em ótimos locais subótimos. A taxa de mutação controla a probabilidade de ocorrer mutação em um determinado gene.
 
-Após a aplicação desses operadores genéticos, uma nova geração de indivíduos é formada. Esse processo é repetido por várias gerações até que uma condição de parada seja alcançada, como um número máximo de gerações ou a convergência para uma solução satisfatória.
+![image](https://github.com/Liga-IA/Repository/assets/93664169/a94e8ae6-1016-41fb-bad7-46109942a035)
 
-A principal intuição por trás dos algoritmos genéticos é que, ao longo das iterações, a população evolui para soluções melhores, devido à seleção dos indivíduos mais aptos e à combinação e mutação de seus genes. Esse processo de busca baseado em evolução permite explorar eficientemente o espaço de busca em problemas complexos.
+A probabilidade de seleção de um cromossomo S é determinada por um cálculo específico que leva em consideração sua aptidão em relação aos outros indivíduos da população.
 
-Os algoritmos genéticos possuem uma ampla variedade de aplicações, incluindo problemas de otimização combinatória, como o problema do caixeiro-viajante, problemas de programação, projeto de circuitos, aprendizado de máquina, entre outros.
+Com todos esses ingredientes combinados, os algoritmos evolutivos buscam encontrar soluções cada vez melhores ao longo do tempo. 
+
+E o mais incrível é que esses algoritmos genéticos têm uma galera de aplicações legais! Eles ajudam a resolver problemas complexos, como o do caixeiro-viajante (aquele que precisa visitar várias cidades), projetos de circuitos, programação e até aprendizado de máquina. Eles são como os super-heróis da otimização!
+
+Agora você já conhece a teoria por trás dos algoritmos genéticos. Prontinho para embarcar nessa aventura genética e solucionar problemas de forma superdivertida? Vamos lá!
